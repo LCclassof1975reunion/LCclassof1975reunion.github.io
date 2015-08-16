@@ -37,6 +37,19 @@
     
 
 }
+.ticket {
+    background: rgb(249, 126, 28);
+    margin-top: 100px;
+    padding-top: 25px;
+    
+}
+.ticket h2 {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-weight: 100; 
+    font-size: 4.00rem;
+}
+
 .comment {
     margin-top: 50px;
 }
