@@ -22,11 +22,56 @@
     font-style: normal;
 }
  body {
-     background-image: url("../img/lc-compined-darker.png")
+     background-image: url("../img/lc-compined-darker.png");
+     
+ }
+ body p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; 
+ }
+ h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;  
+ }
+.button {
+    
+    background: #FF9625;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;  
+    margin-top: 30px;
+
+    
+ }
+ .button:hover {
+    background: #FF8600;
+    
+ }
+ .button:active {
+    background: #FF9625;
  }
 
+.janine {
+    background: rgba(25, 25, 25, 0.88);
+    margin-top: 100px;
+    text-align: left;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    
+}
+.janine p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+}
 
+.janine h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100; 
 
+}
 .head h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: 400; 
@@ -34,8 +79,6 @@
     font-size: 9.25rem;
     margin-bottom: -20px;
     text-shadow: 5px 6px white;
-    
-
 }
 .ticket {
     background: rgb(249, 126, 28);
@@ -43,6 +86,10 @@
     padding-top: 25px;
     
 }
+
+
+
+
 .ticket h2 {
     font-family: 'Roboto Slab', serif;
     color: white;
@@ -61,13 +108,7 @@ p.lead {
     color: orange;
 
 }
-h4 {
-    color: grey;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 100; 
-    font-size: 1.40rem;
 
-}
 
 
 .title h2 {
@@ -87,27 +128,74 @@ h4 {
 .check {
     padding-right: 15px;
 }
-h3 {
+.info2 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100; 
+    font-size: 2.75rem;
+}
+.accommodations {
+    background: #524b48 url("../img/light-pattern.jpg") 50% 0 repeat-x;
+}
+.reunion {
     color: #F36A06;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500; 
+    font-size: 8.45rem;
+    text-shadow: 1px 2px 3px #545453;
+    margin-bottom: -30px;
+    padding: 0px;
+
+
+}
+h4 {
+    color: #5A5A5A;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300; 
+    font-size: 1.40rem;
+}
+.facebookicon {
+    height: 65px;
+
+}
+.facebook a {
+    color: white;
     font-family: 'Roboto Slab', serif;
     font-weight: 300; 
     font-size: 2.50rem;
-    text-shadow: 1px 2px 3px #545453;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
-.reunion {
-    font-size: 3.50rem;
-    padding-top: 0px;
-    padding-bottom: 0px;
+
+.facebook {
+    background: rgba(228, 141, 33, 0.9);
+    margin-top: 100px;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+.info h4 {
+    margin: 0px;
+    padding-bottom: 30px;
+    font-size: 2.00rem;
 
 }
 
 .info {
     margin-top: 100px;
     background: rgba(255, 255, 255, 0.80);
-    padding: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+.info2 {
+    margin-top: 50px;
+    background: rgba(25, 25, 25, 0.70);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+.info2 h4,
+.info2 h3,
+.info2 p {
+    color: white;
+}
+
 
 
 dialog > :first-child, .reveal-modal > :first-child {
@@ -127,10 +215,12 @@ p {
 .top-bar-section li:not(.has-form) a:not(.button):hover,
 .top-bar-section .dropdown li:not(.has-form) a:not(.button):hover {
     background: #ff8c00;
+    font-weight: 500; 
 }
 
 #myModal, body {
     text-align: center;
+
 }
 
 .head {
@@ -143,8 +233,9 @@ p {
 .top-bar-section li:not(.has-form) a:not(.button),
 .top-bar-section .dropdown li:not(.has-form) a:not(.button){
     background: #807B7B;
-    
     font-size: 0.8125rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; 
 }
 
 
@@ -162,9 +253,6 @@ p {
 }
 
 
-.second {
-    padding-top: 120px;
-}
 
     } /* min-width 641px, medium screens */
     @media only screen and (max-width: 40em) { 
