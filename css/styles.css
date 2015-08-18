@@ -59,6 +59,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;  
  }
+ .paw  {
+    height: 20px;
+ }
 .button {
     
     background: #FF9625;
@@ -89,6 +92,7 @@
 .janine p {
     font-family: 'Roboto Slab', serif;
     font-weight: 100;
+    letter-spacing: 1px;
 }
 
 .janine h2 {
@@ -107,21 +111,46 @@
     text-shadow: 5px 6px white;
 }
 .ticket {
-    background: rgb(249, 126, 28);
+    background: rgba(249, 126, 28, 0.9);
     margin-top: 100px;
     padding-top: 25px;
+    border-radius: 25px;
+    color: white;
+    letter-spacing: 2px;
     
+    
+
+    
+}
+.to {
+    text-align: left;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 
-
-
+.buy {
+    text-align: right;
+    border-left: 1px black;
+    text-transform: uppercase;
+}
 .ticket h2 {
     font-family: 'Roboto Slab', serif;
     color: white;
-    font-weight: 100; 
-    font-size: 4.00rem;
+    font-weight: 300; 
+    font-size: 3.00rem;
+    padding-top: 30px;
 }
+
+.contact {
+    background: rgba(62, 62, 62, 0.89);
+    color: white;
+}
+
+
+
+
+
 
 .comment {
     margin-top: 50px;
@@ -160,9 +189,23 @@ p.lead {
     padding-right: 15px;
 }
 
+
 .accommodations {
-    background: #524b48 url("../img/light-pattern.jpg") 50% 0 repeat-x;
+    margin-top: 175px;
+    background: #524b48 url("../img/light-pattern.jpg") 50% 0 repeat;
+    padding-top: 50px;
+    text-align: left;
 }
+.accommodations h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+    color: #c52033;
+    letter-spacing: 2px;
+    font-size: 5rem;
+
+    
+}
+
 .reunion {
     color: #F36A06;
     font-family: 'Roboto Slab', serif;
@@ -182,6 +225,10 @@ h4 {
 }
 .facebookicon {
     height: 65px;
+
+}
+.facebookicon1 {
+    height: 27px;
 
 }
 .facebook a {
@@ -219,6 +266,12 @@ h4 {
     padding-bottom: 50px;
     color: white;
 }
+.info2 p a {
+    color: orange;
+    letter-spacing: 1px;
+}
+
+
 .info2 h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 100; 
@@ -242,7 +295,7 @@ h4 {
 
 
 
-}
+
 
 .head {
     margin-top: 100px;
@@ -251,12 +304,17 @@ h4 {
 .top-bar .name h1 a,
 .top-bar,
 .contain-to-grid,
-.top-bar-section li:not(.has-form) a:not(.button),
-.top-bar-section .dropdown li:not(.has-form) a:not(.button){
-    background: #807B7B;
-    font-size: 0.8125rem;
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: rgba(62, 62, 62, 0.89);
+    font-size: .90rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300; 
+    
+}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+    border-right: solid 1px #C3C3C3;
+    border-left: solid 1px #C3C3C3;
 }
 
 
@@ -285,6 +343,61 @@ h4 {
 .info .address ul {
 text-align:  left;
 }
+.top-bar .name h1 a,
+.top-bar,
+.contain-to-grid,
+.top-bar-section li:not(.has-form) a:not(.button) {
+
+    font-size: .9rem;
+
+    font-weight: 100; 
+}
+.facebookicon {
+    height: 50px;
+
+}
+
+.facebook a {
+    font-weight: 300; 
+    font-size: 1.50rem;
+}
+
+.facebook {
+    width: 600px;
+
+}
+.ticket {
+    background: rgba(249, 126, 28, 0.9);
+    margin-top: 100px;
+    padding-top: 25px;
+    border-radius: 0px;
+    color: white;
+    letter-spacing: 2px;
+    
+    
+
+    
+}
+.to {
+    text-align: left;
+    
+    padding-left: 40px;
+}
+
+
+.buy {
+    text-align: right;
+    border-left: 1px black;
+    text-transform: uppercase;
+}
+.ticket h2 {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-weight: 300; 
+    font-size: 3.00rem;
+    padding-top: 30px;
+}
+
 
 
     } /* min-width 641px, medium screens */
@@ -341,6 +454,59 @@ h3 {
 
     margin-top: 0px;
  }
+ .facebookicon {
+    height: 40px;
+
+}
+
+.facebook a {
+    font-weight: 100; 
+    font-size: 1.4rem;
+}
+
+.facebook {
+    width: auto;
+    margin: 10px;
+    text-align: left;
+
+}
+.ticket {
+    background: rgba(249, 126, 28, 0.9);
+
+    margin-top: 100px;
+    padding: auto;
+    border-radius: 0px;
+    color: white;
+    letter-spacing: 2px;
+    
+    
+
+    
+}
+.to {
+    text-align: center;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.buy {
+    text-align: center;
+    border-left: 1px black;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.ticket h2 {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-weight: 300; 
+    font-size: 3.00rem;
+    padding-top: 30px;
+}
+
 
 
 
