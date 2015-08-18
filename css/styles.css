@@ -48,6 +48,14 @@
 
      
 }
+
+.face  {
+    color: #FFBA18;
+}
+.face:hover  {
+    color: #F7AD01;
+    font-weight: 300;
+}
 .scroll {
     margin-top: 100px;
 }
@@ -545,6 +553,8 @@ h3 {
 
     
 }
+
+
 .janine  {
     background: black;
     text-align: left;
