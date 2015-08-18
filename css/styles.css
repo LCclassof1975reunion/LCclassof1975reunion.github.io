@@ -23,8 +23,34 @@
 }
  body {
      background-image: url("../img/lc-compined-darker.png");
+     text-align: center;
      
  }
+ .address ul{
+    
+    border-color: #949494;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+ }
+  .address ul a li {
+    color: black;
+  }
+ .scroll p a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    margin-bottom: -20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 12px black;
+
+     
+}
+.scroll {
+    margin-top: 100px;
+}
  body p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300; 
@@ -119,7 +145,12 @@ p.lead {
     text-shadow: 5px 3px 10px #2F2F2F;
     
 }
-.paypal,
+
+.title {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
 .check {
     height: 20px;
     color: orange;
@@ -128,11 +159,7 @@ p.lead {
 .check {
     padding-right: 15px;
 }
-.info2 h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100; 
-    font-size: 2.75rem;
-}
+
 .accommodations {
     background: #524b48 url("../img/light-pattern.jpg") 50% 0 repeat-x;
 }
@@ -178,10 +205,12 @@ h4 {
 }
 
 .info {
-    margin-top: 100px;
+   
     background: rgba(255, 255, 255, 0.80);
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: justify;
+    margin-top: 30px;
 }
 .info2 {
     margin-top: 50px;
@@ -190,25 +219,18 @@ h4 {
     padding-bottom: 50px;
     color: white;
 }
+.info2 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100; 
+    font-size: 2.75rem;
+}
+
 .info2 h4,
 .info2 h3,
 .info2 p {
     color: white;
 }
 
-
-
-dialog > :first-child, .reveal-modal > :first-child {
-    color: grey;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 100; 
-    font-size: 3.00rem;
-    margin-top: 0px; 
-    margin-top: -20px;
-}
-p {
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-}
 
 
 
@@ -218,8 +240,7 @@ p {
     font-weight: 500; 
 }
 
-#myModal, body {
-    text-align: center;
+
 
 }
 
@@ -248,10 +269,22 @@ p {
     font-size: 5.25rem;
     margin-bottom: -20px;
     text-shadow: 3px 4px white;
-    
-
 }
 
+ .address ul {
+    
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    margin-top: 0px;
+ }
+ .info {
+    text-align: center;
+}
+.info .address ul {
+text-align:  left;
+}
 
 
     } /* min-width 641px, medium screens */
@@ -265,6 +298,24 @@ p {
     margin-bottom: 0px;
     text-shadow: 1px 1px white;
 }
+
+.reunion {
+
+    font-weight: 500; 
+    font-size: 4.75rem;
+    text-shadow: 0px 0px 0px #545453;
+    margin-bottom: -10px;
+}
+
+.info h4 {
+    font-size: 1.17rem;
+}
+
+.info2 {
+    text-align: left;
+}
+
+
 h3 {
     color: #F36A06;
     font-family: 'Roboto Slab', serif;
@@ -282,9 +333,15 @@ h3 {
     text-shadow: 5px 3px 10px #2F2F2F;
     
 }
-.second {
-    padding-top: 120px;
-}
+ .address ul {
+    
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    margin-top: 0px;
+ }
+
 
 
 
