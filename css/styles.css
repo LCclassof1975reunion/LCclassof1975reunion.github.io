@@ -49,10 +49,10 @@
      
 }
 
-.face  {
+.janine a  {
     color: #FFBA18;
 }
-.face:hover  {
+.janine a:hover  {
     color: #F7AD01;
     font-weight: 300;
 }
