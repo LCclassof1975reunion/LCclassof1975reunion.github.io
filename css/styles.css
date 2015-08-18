@@ -185,9 +185,10 @@ p.lead {
 .title h2 {
     color: white;
     font-family: 'Roboto Slab', serif;
-    font-weight: 400; 
+    font-weight: 300; 
     font-size: 3.00rem;
-    text-shadow: 5px 3px 10px #2F2F2F;
+    text-shadow: 1px 1px 10px black;
+    letter-spacing: 1px;
     
 }
 
@@ -449,11 +450,15 @@ text-align:  left;
     letter-spacing: 1.5px;
     font-size: 1.5rem;
 }
+.title h2 {
+    font-size: 2.3rem;
+}
 
 
 
     } /* min-width 641px, medium screens */
     @media only screen and (max-width: 40em) { 
+
 
 .head h1 {
     font-family: 'Roboto Slab', serif;
@@ -511,8 +516,9 @@ h3 {
     color: white;
     font-family: 'Roboto Slab', serif;
     font-weight: 100; 
-    font-size: 2.00rem;
+    font-size: 1.1rem;
     text-shadow: 5px 3px 10px #2F2F2F;
+    letter-spacing: 1px;
     
 }
  .address ul {
